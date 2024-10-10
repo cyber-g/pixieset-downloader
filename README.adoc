@@ -93,6 +93,16 @@ With the following optional arguments, the images can be filtered and the target
 
 It is recommended to surround at least the RegEx argument with apostrophes: `"{complex-regex}"`.
 
+== How to get the cookie value ?
+
+In Google Chrome, you can get the cookie value by following these steps:
+
+1. Open the Pixieset collection in a new tab
+2. Right-click on the page and select "Inspect"
+3. Go to the "Application" tab
+4. In the "Cookies" section, you can find the `PHPSESSID` cookie value
+
+
 == Example
 
 The following example accesses the publicly available https://josevilla.pixieset.com/lilyandjonathan[example collection] of Pixieset named `lilyandjonathan`.
